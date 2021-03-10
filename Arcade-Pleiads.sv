@@ -140,6 +140,7 @@ localparam CONF_STR = {
 	"H0OEF,Aspect ratio,Original,Full Screen,[ARC1],[ARC2];",
 	"H0O2,Orientation,Vert,Horz;",
 	"O35,Scandoubler Fx,None,HQ2x,CRT 25%,CRT 50%,CRT 75%;",
+	"O7,Flip Screen,Off,On;",
 	"-;",
 	"OUV,UserIO Joystick,Off,DB9MD,DB15 ;",
 	"OT,UserIO Players, 1 Player,2 Players;",
@@ -342,6 +343,7 @@ phoenix phoenix
 	.audio(audio),
 
 	.dip_switch(dip_switch),
+	.flip_screen(status[7]),
 
 	.btn_coin(m_coin),
 	.btn_player_start({m_start2, m_start1}),
