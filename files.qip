@@ -18,5 +18,3 @@ set_global_assignment -name SOURCE_FILE rtl/phoenix_music.vhd
 set_global_assignment -name SOURCE_FILE rtl/phoenix_video.vhd
 set_global_assignment -name SOURCE_FILE rtl/phoenix.vhd
 set_global_assignment -name SOURCE_FILE rtl/gen_ram.vhd
-set_global_assignment -name VERILOG_FILE rtl/joydb9md.v
-set_global_assignment -name VERILOG_FILE rtl/joydb15.v
